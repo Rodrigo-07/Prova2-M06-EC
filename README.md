@@ -8,7 +8,7 @@ O objetivo da prova era desenvolver um algoritmo capaz de detectar faces em um v
 
 Para rodar o modelo de detecção de rostos, basta clonar o repositorio e rodar `python3 src/main.py`
 
-O resultado final pode ser avaliado em src/video_final.mp4
+O resultado final pode ser avaliado em src/video_final.mp4 ou nesse link https://youtu.be/VSb0c0v0TCs 
 
 
 ## Resposta das perguntas técnicas
@@ -82,6 +82,13 @@ Em relaão ao 2.2, aqui o que vai mudar vai ser apenas a viabilade técnica ent�
 
 ### 2.4
 
-**  **
+**A solução apresentada ou qualquer outra das que foram listadas na questão 2.2. tem a capacidade de considerar variações de um frame para outro (e.g. perceber que em um frame a pessoa está feliz e isso influenciar na detecção do próximo frame)? Se não, quais alterações poderiam ser feitas para que isso seja possível?**
 
-Acredito que nenhum dos método faz essa correlação entre frames já que geralmente passamos frame a frame pelo metodo. Acredito que tenha funções já prontas para essa consideração temporal dos frames em bibliotecas como tensorflow. Porém, poderiamos adicionar um algoritimo que guarda a localização das faces dos últimos frames e "foca" nas proximidades desses frames quando for analisar o próximo frame.
+Acredito que nenhum dos método faz essa correlação entre frames já que geralmente passamos frame a frame pelo metodo. Acredito que tenha funções já prontas para essa consideração temporal dos frames em bibliotecas como tensorflow. Porém, poderiamos adicionar um algoritimo que guarda a localização das faces dos últimos frames e "foca" nas proximidades desses frames quando for analisar o próximo frame. Porém, acredito que podemos utilizar técncias como FFP e TFD já que elas utilizam um dominio discreto do tempo.
+
+
+### 2.5
+
+**Quem ganha a bola de ouro 2024?**
+
+Messi
